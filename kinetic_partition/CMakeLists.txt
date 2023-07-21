@@ -28,8 +28,6 @@ set( CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${CMAKE_CURRENT_SOURCE_DIR}/cmake)
 
 # Python
 find_package(Python COMPONENTS Interpreter Development NumPy)
-set(PYTHON_INCLUDE_DIR /usr/include/python3.10)
-include_directories(${PYTHON_INCLUDE_DIR})
 
 # Boost, numpy + python version
 #./bootstrap.sh --with-python=/usr/bin/python3.10
@@ -89,7 +87,7 @@ if( CGAL_FOUND AND GDAL_FOUND AND Boost_FOUND AND Eigen3_FOUND AND OpenCV_FOUND 
     set(CMAKE_LD_FLAG "${CMAKE_LD_FLAGS} -shared -Wl -fPIC --export-dynamic -o -O3 -Wall -std=c++11")
     add_library(kinetic_partition SHARED ${${PROJECT_NAME}_HEADERS} ${${PROJECT_NAME}_SOURCES} )
     target_link_libraries(kinetic_partition ${CGAL_LIBRARIES} ${CGAL_3RD_PARTY_LIBRARIES}
-            ${OpenCV_LIBS} ${GDAL_LIBRARIES} ${PYTHON_LIBRARIES} ${Boost_LIBRARIES} Boost::filesystem Boost::python Boost::numpy)
+            ${OpenCV_LIBS} ${GDAL_LIBRARIES} Python::Python Python::NumPy ${Boost_LIBRARIES} Boost::filesystem Boost::python Boost::numpy)
     set_target_properties(kinetic_partition PROPERTIES VERSION 1.0.0 SOVERSION 1)
     ### Error messages ###
 else()

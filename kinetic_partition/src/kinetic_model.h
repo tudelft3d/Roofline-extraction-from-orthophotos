@@ -6,11 +6,6 @@
 #include <opencv2/core/core.hpp>
 #include <set>
 
-using std::default_random_engine;
-using std::vector;
-using std::set;
-using cv::Mat;
-
 #include "parameters.h"
 #include "matrix.h"
 #include "segment_ray.h"
@@ -18,6 +13,11 @@ using cv::Mat;
 #include "indexed_event.h"
 #include "partition.h"
 #include "line_item.h"
+
+using std::default_random_engine;
+using std::vector;
+using std::set;
+using cv::Mat;
 
 class Kinetic_Model
 {

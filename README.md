@@ -12,7 +12,7 @@ We then utilize a dense point cloud to extrude the partition results and create 
 
 If you use it in a scientific work, we kindly ask you to cite it:
 
-<div class="filteredelement"><strong>Unsupervised Roofline Extraction from True Orthophotos for LoD2 Building Model Reconstruction</strong>. Weixiao Gao, Ravi Peters, and Jantien Stoter. <em> ISPRS Journal of Photogrammetry and Remote Sensing</em> 196 (2023) 32-44. <br/><a href="https://arxiv.org/abs/2310.01067"><i class="fas fa-external-link-alt"></i> PDF</a> <a href="#myref" data-toggle="collapse"><i class="fas fa-caret-square-down"></i> BibTeX</a> <div id="myref" class="collapse" tabindex="-1"><pre class="bibtex">@article{sum2021,
+<div class="filteredelement"><strong>Unsupervised Roofline Extraction from True Orthophotos for LoD2 Building Model Reconstruction</strong>. Weixiao Gao, Ravi Peters, and Jantien Stoter. <em> The 18th 3D GeoInfo 2023 </em>. <br/><a href="https://arxiv.org/abs/2310.01067"><i class="fas fa-external-link-alt"></i> PDF</a> <a href="#myref" data-toggle="collapse"><i class="fas fa-caret-square-down"></i> BibTeX</a> <div id="myref" class="collapse" tabindex="-1"><pre class="bibtex">@article{sum2021,
 author = {Weixiao Gao, Ravi Peters, and Jantien Stoter},
 title = {Unsupervised Roofline Extraction from True Orthophotos for LoD2 Building Model Reconstruction},
 journal = {Lecture Notes in Geoinformation and Cartography (LNG&C) series},

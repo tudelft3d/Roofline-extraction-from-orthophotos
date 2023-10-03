@@ -1,5 +1,5 @@
 # Unsupervised Roofline Extraction from True Orthophotos
-This is the implementation part of the roofline extraction of the paper: [*Unsupervised Roofline Extraction from True Orthophotos*](https://3dbag.nl/en/viewer). 
+This is the implementation part of the roofline extraction of the paper: [*Unsupervised Roofline Extraction from True Orthophotos*](https://arxiv.org/abs/2310.01067). 
 First, we use a true orthophoto as input. 
 Next, we perform line extraction to partition the building footprint, which generates separate roof parts. 
 We then utilize a dense point cloud to extrude the partition results and create a LoD2 building model. For generating LoD2 building models, please refer to the repository [gfp-building-reconstruction](https://github.com/geoflow3d/gfp-building-reconstruction).
@@ -12,35 +12,14 @@ We then utilize a dense point cloud to extrude the partition results and create 
 
 If you use it in a scientific work, we kindly ask you to cite it:
 
-[//]: # (<div class="filteredelement"><strong>Unsupervised Roofline Extraction from True Orthophotos</strong>. Weixiao Gao, Ravi Peters, and Jantien Stoter. )
-
-[//]: # (<em> ISPRS Journal of Photogrammetry and Remote Sensing</em> 196 &#40;2023&#41; 32-44. <br/><a href="https://www.sciencedirect.com/science/article/pii/S0924271622003355"><i class="fas fa-external-link-alt"></i> PDF</a> <a href="#myref" data-toggle="collapse"><i class="fas fa-caret-square-down"></i> BibTeX</a> )
-
-[//]: # (<div id="myref" class="collapse" tabindex="-1">)
-
-[//]: # (<pre class="bibtex">@article{sum2021,)
-
-[//]: # (author = {Weixiao Gao and Liangliang Nan and Bas Boom and Hugo Ledoux},)
-
-[//]: # (title = {PSSNet: Planarity-sensible Semantic Segmentation of large-scale urban meshes},)
-
-[//]: # (journal = {ISPRS Journal of Photogrammetry and Remote Sensing},)
-
-[//]: # (volume = {196},)
-
-[//]: # (pages = {32-44},)
-
-[//]: # (year={2023},)
-
-[//]: # (issn = {0924-2716},)
-
-[//]: # (doi = {10.1016/j.isprsjprs.2022.12.020},)
-
-[//]: # (url = {https://www.sciencedirect.com/science/article/pii/S0924271622003355},)
-
-[//]: # (})
-
-[//]: # (</pre></div></div>)
+<div class="filteredelement"><strong>Unsupervised Roofline Extraction from True Orthophotos for LoD2 Building Model Reconstruction</strong>. Weixiao Gao, Ravi Peters, and Jantien Stoter. <em> ISPRS Journal of Photogrammetry and Remote Sensing</em> 196 (2023) 32-44. <br/><a href="https://arxiv.org/abs/2310.01067"><i class="fas fa-external-link-alt"></i> PDF</a> <a href="#myref" data-toggle="collapse"><i class="fas fa-caret-square-down"></i> BibTeX</a> <div id="myref" class="collapse" tabindex="-1"><pre class="bibtex">@article{sum2021,
+author = {Weixiao Gao, Ravi Peters, and Jantien Stoter},
+title = {Unsupervised Roofline Extraction from True Orthophotos for LoD2 Building Model Reconstruction},
+journal = {Lecture Notes in Geoinformation and Cartography (LNG&C) series},
+year={2023},
+publisher = {Springer},
+}
+</pre></div></div>
 
 
 ## Requirements 

@@ -38,7 +38,7 @@ parser.add_argument('--write_gt_building_image_with_footprints', default=2, type
 parser.add_argument('--write_gt_building_image_with_rooflines', default=True, type=bool,
                     help='Write image with projected ground truth (3D BAG lod22_2d) rooflines.')
 parser.add_argument('--multi_processing_cores', default=True, type=int,
-                    help='Write image with projected ground truth (3D BAG lod22_2d) rooflines.')
+                    help='Apply multi processing cores for faster processing.')
 
 # Processing parameters for building image and polygons
 parser.add_argument('--apply_polygon_buffer_filter', default=True, type=bool,
